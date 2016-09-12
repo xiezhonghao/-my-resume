@@ -28,7 +28,7 @@ $(function () {
     $('.timeline').append(html);
 
     $('i').click(function () {
-        let  $ltext =$(this).parent().next();
+        var  $ltext =$(this).parent().next();
         if($ltext.width()==300){
             $ltext.addClass('long-text');
             $ltext.css({
