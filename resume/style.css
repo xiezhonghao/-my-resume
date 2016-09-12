@@ -1,0 +1,34 @@
+.bg{background-color: #CCCCCC;width:100%;height: 1000px;font-family: "Microsoft YaHei"}
+.person{  width: 1000px;  margin: 0 auto;}
+
+.profile{  width: 350px; height: 1000px; background-color: #00BFA5;float: left;color: white}
+.profile p{width: 80px;height: 80px; border-radius: 50%;overflow: hidden;margin:0 auto;margin-top: 100px;}
+.profile h2,h4{margin: 10px auto;text-align: center;}
+
+.profile ul{margin: 40px;}
+.profile a{color: white}
+.profile h3{margin: 10px 0;}
+.profile li{height: 20px;margin: 5px;width: 260px;position: relative;}
+.profile em{margin-left:5px;height: 13px;width: 150px;  display: inline-block;border-radius: 5px;background-color: #00796B;overflow: hidden;vertical-align: -3px;left: 50px;position: absolute;top:5px;}
+.profile i{height: 20px;background-color: white;display: inline-block; }
+.profile li:nth-child(2) i{width: 130px;}
+.profile li:nth-child(3) i {width: 130px;}
+.profile li:nth-child(4) i {width: 90px;}
+.profile li:nth-child(5) i {width: 70px;}
+.profile li:nth-child(6) i {width: 50px;}
+
+.timeline{padding: 30px;width: 590px;float: left;}
+.timeline h1:nth-child(1){margin-bottom: 20px;}
+.timeline h1 img{ margin-left: 100px;}
+.appcon div{display: inline-block;vertical-align:top; font-size: 16px;}
+.appcon div:nth-child(1){  position: relative; }
+.appcon div:nth-child(1) p{text-align: right;width: 110px;height: 30px; margin-right: 17px;line-height: 30px;}
+.appcon div:nth-child(1) p:nth-child(1){border-bottom: 1px solid white; color: #06CBD6;}
+.app-time::after{ content: ""; width: 16px;height: 16px;right:-13px;top:22px;background-color:white;position: absolute;border-radius: 50%; display: block;}
+.appcon div:nth-child(2){border-left: 4px solid white; padding-bottom: 30px;}
+.appcon div:nth-child(2) p{ text-align: left;width: 300px; margin-left: 22px;line-height: 30px;vertical-align:top;}
+.appcon div:nth-child(2) p:nth-child(1){border-bottom: 1px dotted white;position: relative ;}
+.appcon div:nth-child(2) p:nth-child(2){line-height: 24px;margin-top: 10px; max-height: 50px;overflow: hidden;color: #06CBD6;font-size: 12px;}
+.long-text{padding:20px; background-color: #303030;}
+.appcon div p i{width:0;height:0;display:inline-block;right: -15px;top:15px;position: absolute;border-top: 5px solid transparent;  border-left: 10px solid green;  border-bottom: 5px solid transparent; }
+
