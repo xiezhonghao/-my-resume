@@ -3,12 +3,12 @@
  */
 $(function () {
     var s=[{data1:"2016-04-01",data2:"2016-06-05",remark:"前端基础学习",content:"这个时候，我快结束了在新疆油田一年的实习经历，由于行业惨淡，决定自学前端知识，在网上参加了网络课，每天刻苦练习"},{data1:"2016-06-25",data2:"2016-09-18",remark:"海尔小薇公司实习",content:"在海尔找了一份实习，跟着公司做前端的项目"}];
-    let html='';
-    for (let i = 0; i < s.length; i++) {
-        let data1 = s[i].data1;
-        let data2 = s[i].data2;
-        let remark = s[i].remark;
-        let content = s[i].content;
+    var html='';
+    for (var i = 0; i < s.length; i++) {
+        var data1 = s[i].data1;
+        var data2 = s[i].data2;
+        var remark = s[i].remark;
+        var content = s[i].content;
         html += `<div class='appcon'>
                               <div class='app-time'> 
                                    <p>${data1}</p> 
