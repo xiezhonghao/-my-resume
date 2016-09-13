@@ -47,4 +47,24 @@ $(function () {
             $(this).css({'transform': 'rotate(0deg)'});
         }
     });
+    /*头像的更换*/
+    $('#photos').mouseover(function () {
+        if($(this).attr("src")=='img/140.png'){
+            $(this).fadeOut(400);
+            $(this).attr("src","img/petrol.png");
+            $(this).fadeIn(400);
+        }else{
+            $(this).fadeOut(400);
+            $(this).attr("src","img/140.png");
+            $(this).fadeIn(400);
+        }
+    })
+    /*提示文字的显示*/
+    $('#qq').hover(function () {
+        $(this).find('p').fadeIn(200);
+    },function () {
+        $(this).find('p').fadeOut(400);
+    })
+    /*索引值大于5的样式更改*/
+    $('.profile ul:gt(5)').css({'font-size':'16px','text-indent':'2em'})
 });
