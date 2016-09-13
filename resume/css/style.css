@@ -1,7 +1,7 @@
-.bg{background-color: #CCCCCC;width:100%;height: 1000px;font-family: "Microsoft YaHei"}
+.bg{background-color: #CCCCCC;width:100%;height: 1200px;font-family: "Microsoft YaHei"}
 .person{  width: 1000px;  margin: 0 auto;}
 
-.profile{  width: 350px; height: 1000px; background-color: #00BFA5;float: left;color: white}
+.profile{  width: 350px; height: 1100px; background-color: #00BFA5;float: left;color: white}
 .profile p{width: 80px;height: 80px; border-radius: 50%;overflow: hidden;margin:0 auto;margin-top: 100px;}
 .profile h2,h4{margin: 10px auto;text-align: center;}
 
@@ -32,3 +32,8 @@
 .long-text{padding:20px; background-color: #303030;}
 .appcon div p i{width:0;height:0;display:inline-block;right: -15px;top:15px;position: absolute;border-top: 5px solid transparent;  border-left: 10px solid green;  border-bottom: 5px solid transparent; }
 
+.skill{padding: 30px;width: 590px;float: left;}
+.skill h1{margin-bottom: 40px;}
+.skill ul{border-left: 4px solid white;padding:20px;;position: relative;}
+.skill  ul::before{content: ""; width: 16px;height: 16px;right:580px;top:0px;background-color:white;position: absolute;border-radius: 50%; display: block;}
+.skill ul li p{color:green; display: none;}
